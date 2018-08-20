@@ -1,0 +1,48 @@
+{
+  "name": "quick-srt-cli",
+  "version": "1.0.0",
+  "description": "Quick Sort Algorithm Implementation CLI",
+  "main": "cli.js",
+  "scripts": {
+    "test": "ava && ci-success travis --success"
+  },
+  "bin": {
+    "quick-srt": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abranhe/quick-srt-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "algorithm",
+    "array",
+    "sort",
+    "sorting",
+    "sorting-algorithm",
+    "quick-sort"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/quick-srt-cli/issues"
+  },
+  "homepage": "https://github.com/abranhe/quick-srt-cli#readme",
+  "dependencies": {
+    "@abranhe/feedback": "^1.1.1",
+    "quick-srt": "^1.0.1",
+    "str-to-arr": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "ci-success": "^2.0.0",
+    "execa": "^0.10.0"
+  }
+}

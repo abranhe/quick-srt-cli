@@ -1,19 +1,19 @@
 <p align="center" id="top">
-	<a href="https://www.npmjs.com/package/merge-srt-cli"><img src="https://cdn.abraham.gq/projects/merge-srt/merge-sort.gif"></a>
+	<a href="https://www.npmjs.com/package/quick-srt-cli"><img src="https://cdn.abraham.gq/projects/quick-srt/quick-sort.gif"></a>
 	<br>
 	<br>
 	<br>
-	<a href="https://www.npmjs.com/package/merge-srt-cli"><b>merge-srt-cli</b></a>
-	: Merge Sort Algorithm Implementation CLI
+	<a href="https://www.npmjs.com/package/quick-srt-cli"><b>quick-srt-cli</b></a>
+	: quick Sort Algorithm Implementation CLI
 </p>
 
 <p align="center">
 	<!-- Travis CI -->
-	<a href="https://travis-ci.org/abranhe/merge-srt-cli"><img src="https://img.shields.io/travis/abranhe/merge-srt-cli.svg?logo=travis" /></a>
+	<a href="https://travis-ci.org/abranhe/quick-srt-cli"><img src="https://img.shields.io/travis/abranhe/quick-srt-cli.svg?logo=travis" /></a>
 	<!-- LICENSE -->
-	<a href="https://github.com/abranhe/merge-srt-cli/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/merge-srt-cli.svg" /></a>
+	<a href="https://github.com/abranhe/quick-srt-cli/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/quick-srt-cli.svg" /></a>
 	<!-- NPM Version -->
-	<a href="https://www.npmjs.com/package/merge-srt-cli"><img src="https://img.shields.io/npm/v/merge-srt-cli.svg" /></a>
+	<a href="https://www.npmjs.com/package/quick-srt-cli"><img src="https://img.shields.io/npm/v/quick-srt-cli.svg" /></a>
 	<!-- @abranhe -->
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<!-- Cash me -->
@@ -28,14 +28,14 @@
 # Install
 
 ```
-npm install merge-srt-cli
+npm install quick-srt-cli
 ```
 
 # Usage
 
 ```console
 Usage:
- $ merge-srt <array>
+ $ quick-srt <array>
 
 Options
 	-f, --feedback  Send a feedback
@@ -43,22 +43,23 @@ Options
 	-v, --version   View package Version
 
 Example
- $ merge-s "d h z a r b i"
+ $ quick-srt "d h z a r b i"
 	[ 'a', 'b', 'd', 'h', 'i', 'r', 'z' ]
- $ merge-s "3 2 5 25 74"
+ $ quick-srt "3 2 5 25 74"
 	[ '2', '25', '3', '5', '74' ]
 ```
 
 # Try it! 😁
 
 ```
-npx merge-srt-cli "d h z a r b i"
+npx quick-srt-cli "d h z a r b i"
 ```
 
 # Related
 
-- [merge-srt](https://github.com/abranhe/merge-srt): API for this module
+- [quick-srt](https://github.com/abranhe/quick-srt): API for this module
 - [bubble-srt](https://github.com/abranhe/bubble-srt): Bubble Sort Algorithm implementation
+- [merge-srt](https://github.com/abranhe/merge-srt): Merge Sort Algorithm implementation
 
 
 # Team
@@ -69,4 +70,4 @@ npx merge-srt-cli "d h z a r b i"
 
 # License
 
-[MIT](https://github.com/abranhe/merge-srt-cli/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
+[MIT](https://github.com/abranhe/quick-srt-cli/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
